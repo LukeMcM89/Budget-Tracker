@@ -29,6 +29,12 @@ Link to [GitHub repository](https://github.com/LukeMcM89/Budget-Tracker).
 
 # Screenshots
 
-<img width="1440" alt="budget2" src="https://user-images.githubusercontent.com/80003989/137389143-279ad2f2-5345-43ed-8535-46166b0e4279.png">
+<img width="1440" alt="budget4" src="https://user-images.githubusercontent.com/80003989/137391598-22a2a456-15dc-4f14-a395-652e2e8ce28d.png">
+<img width="1440" alt="budget3" src="https://user-images.githubusercontent.com/80003989/137391425-47027851-fc6d-4d09-b40e-1bb97acbbf20.png">
 <img width="1407" alt="budget-service" src="https://user-images.githubusercontent.com/80003989/137389197-3bda8683-fb9c-4a09-b4a2-0f6a48d0739f.png">
+<img width="1440" alt="Screen Shot 2021-10-14 at 4 30 31 PM 1" src="https://user-images.githubusercontent.com/80003989/137391387-0e658e9c-5f82-4501-9376-1f67521889f8.png">
+
+# Contributors
+
+Front-End code provided by University of Richmond Flex Full-Stack Coding Bootcamp.
 
