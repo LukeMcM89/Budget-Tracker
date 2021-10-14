@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +12,20 @@
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0" async></script>
   <script src="index.js" defer></script>
+  <script src="db.js" defer></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", async () => {
+        const reg = await navigator.serviceWorker.register("service-worker.js");
+        console.log('Service Worker registered!', reg);
+      });
+    }
+  </script>
+
 
   <title>Budget Tracker</title>
 </head>
+
 <body>
   <div class="wrapper">
     <div class="total">
@@ -35,12 +47,13 @@
           <th>Amount</th>
         </thead>
         <tbody id="tbody">
-          
+
         </tbody>
       </table>
     </div>
-    
-    <canvas id="myChart"></canvas>
+
+    <canvas id="my-chart"></canvas>
   </div>
 </body>
+
 </html>
