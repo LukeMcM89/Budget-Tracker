@@ -2,7 +2,7 @@
 
 This web application features a progressive budget tracker which enables a user to manage their personal finances. This is achieved with or without a stable or viable internet connection.
 
-The budget history is tracked and visualized via a slope graph with the respective data being stored on a MongoDB database. All relevant files concerning this application are cached in the browser. This allows the application to operate the same and predicatbly even offline. 
+The budget history is tracked and visualized via a slope graph with the respective data being stored on a MongoDB database. All relevant files concerning this application are cached in the browser. This allows the application to operate the same and predictably even offline. 
 
 In the absence of a viable internet connection, which means no database with which to communicate with, any offline input on the user side is/are stored through IndexedDB via the browser. 
 
@@ -20,6 +20,7 @@ When internet connection is restored, the cached data is fetched directly to the
 * IndexedDB 
 * Service Workers
 * Manifest.json
+* Heroku 
 
 # Links
 
