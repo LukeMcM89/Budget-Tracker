@@ -20,7 +20,7 @@ When internet connection is restored, the cached data is fetched directly to the
 * IndexedDB 
 * Service Workers
 * Manifest.json
-* Heroku 
+* Heroku
 
 # Links
 
